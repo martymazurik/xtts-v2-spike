@@ -1,0 +1,1 @@
+tts --model_name tts_models/multilingual/multi-dataset/xtts_v2 --text "Hey Dude, long time no see. What's shaking dude?" --speaker_wav voice_samples\marty_voice.wav --out_path output_audio\xtts_v2_output.wav --language_idx en --use_cuda
